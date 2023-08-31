@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import QuestImage from '../assets/checklist-img.png'
+import QuestImage from '../assets/checklist-img2.png'
 
 function Questchecks({dataShow,update}) {
   const [checkboxid, setcheckboxid] = useState('');
