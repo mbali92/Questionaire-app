@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Questionlist from './Questionlist'
-import Questchecks from './questchecks'
+import Questchecks from './Questchecks'
 import Dashboard from './Dashboard'
 
 function Context({componentName}) {
