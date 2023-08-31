@@ -1,3 +1,18 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "quest": "Computers were meant to work with humans",
+      "agree": 0,
+      "disagree": 0,
+      "neutral": 0,
+      "id": 1
+    },
+    {
+      "quest": "hello",
+      "agree": 0,
+      "disagree": 0,
+      "neutral": 0,
+      "id": 2
+    }
+  ]
 }
