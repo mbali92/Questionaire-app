@@ -1,25 +1,3 @@
 {
-  "posts": [
-    {
-      "quest": "computer is the most important thing currently two",
-      "agree": 1,
-      "disagree": 0,
-      "neutral": 0,
-      "id": 1
-    },
-    {
-      "quest": "question number two ",
-      "agree": 1,
-      "disagree": 0,
-      "neutral": 0,
-      "id": 2
-    },
-    {
-      "quest": "hi there world",
-      "agree": 0,
-      "disagree": 0,
-      "neutral": 1,
-      "id": 4
-    }
-  ]
+  "posts": []
 }
