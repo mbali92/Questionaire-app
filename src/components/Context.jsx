@@ -14,6 +14,7 @@ function Context({componentName}) {
               const data = await response.json()
               setretrievedData(data)
             }else{
+              
               console.log('error with fetching data')
             }
           }catch(error){
