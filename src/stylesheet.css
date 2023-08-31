@@ -1,0 +1,50 @@
+@import './components/css-sections/sidebar.css';
+@import './components/css-sections/questionlist.css';
+@import './components/css-sections/questboxes.css';
+@import './components/css-sections/dashboard.css';
+
+:root{
+    --font-family:'Roboto', sans-serif;;
+    --section-padding: 0 40px;
+    --section-border:1px solid #ddd;
+    --page-width:90%;
+    --page-margin: 0 auto;
+    --blue-color:rgb(88, 88, 228);
+    --light-font-weight: 300;
+    --page-border-radius:10px;
+    --gray-color:#666;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrapper-row{
+    width: 100%;
+    display: flex;
+}
+.side-bar-section{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.main-content{
+    width: 85%;
+    position: absolute;
+    left: 15%;
+    background-color: #f1f1f1;
+    padding: var(--section-padding);
+    top: 0;
+}
+.box-wrapper{
+    width: var(--page-width);
+    margin: var(--page-margin);
+}
